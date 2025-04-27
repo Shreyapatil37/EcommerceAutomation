@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-27T23:14:03 IST" name="Default suite" finished-at="2025-04-27T23:14:27 IST" duration-ms="24187">
+    <groups>
+    </groups>
+    <test started-at="2025-04-27T23:14:03 IST" name="Default test" finished-at="2025-04-27T23:14:27 IST" duration-ms="24187">
+      <class name="com.nixonex.tests.ShoppingTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.nixonex.tests.ShoppingTest@77888435]" started-at="2025-04-27T23:14:03 IST" name="setup" finished-at="2025-04-27T23:14:16 IST" duration-ms="13028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nixonex.tests.ShoppingTest.shoppingFlowTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shoppingFlowTest()[pri:0, instance:com.nixonex.tests.ShoppingTest@77888435]" started-at="2025-04-27T23:14:16 IST" name="shoppingFlowTest" finished-at="2025-04-27T23:14:25 IST" duration-ms="8815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFlowTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nixonex.tests.ShoppingTest@77888435]" started-at="2025-04-27T23:14:25 IST" name="tearDown" finished-at="2025-04-27T23:14:27 IST" duration-ms="2260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFlowTest status=SUCCESS method=ShoppingTest.shoppingFlowTest()[pri:0, instance:com.nixonex.tests.ShoppingTest@77888435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nixonex.tests.ShoppingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
